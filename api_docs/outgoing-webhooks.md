@@ -146,10 +146,14 @@ Here's how we fill in the fields that a Slack-format webhook expects:
             <td><code>user_name</code></td>
             <td>Full name of sender</td>
         </tr>
-        <tr>
+        '<tr>
             <td><code>text</code></td>
             <td>The content of the message (in Markdown)</td>
-        </tr>
+        </tr>'
+         '<tr>
+            <td><code>command</code></td>
+            <td>Bot mentioned</td>
+        </tr>'
         <tr>
             <td><code>trigger_word</code></td>
             <td>Trigger method</td>
